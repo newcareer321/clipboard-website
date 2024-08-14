@@ -17,11 +17,13 @@
 }
 
 .section-content {
-  @apply max-w-3xl mx-auto leading-9 text-center text-grayishBlue;
+  @apply max-w-3xl mx-auto text-xl leading-9 text-center
+  text-darkGrayishBlue;
 }
 
 .button-container {
-  @apply flex flex-col justify-center w-full space-y-6 text-xl text-white md:flex-row md:space-y-0 md:space-x-4;
+  @apply flex flex-col justify-center w-full space-y-6
+    text-xl text-white md:flex-row md:space-y-0 md:space-x-4;
 }
 
 body {
@@ -32,7 +34,7 @@ body {
 
 @media (max-width: 576px) {
   body {
-    background-image: url("../images/bg-header-mobile.png");
+    background-image: url("../images"/bg-header-mobile.png);
   }
 }
 
